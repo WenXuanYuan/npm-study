@@ -1,0 +1,1 @@
+A modern Javascript utility library delivering modularity, performance & extras.

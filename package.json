@@ -1,0 +1,39 @@
+{
+  "name": "npm-package-study",
+  "version": "0.0.0",
+  "description": "npm package study",
+  "main": "index.js",
+  "scripts": {
+    "es-checker": "es-checker",
+    "nodemon": "nodemon ./tools/nodemon.js",
+    "babel": "babel -w ./tools/babel-cli.js --out-file=./tools/babel/babel-cli.js",
+    "babel-node": "babel-node temp/1 2",
+    "build": "webpack --config webpack/webpack.config.js",
+    "webpack-dev-server": "webpack-dev-server --contentBase webpack-dev-server/ --config webpack-dev-server/webpack.config.js"
+  },
+  "keywords": [
+    "npm package study"
+  ],
+  "author": "wen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.1",
+    "browser-sync": "^2.18.12",
+    "chokidar": "^1.7.0",
+    "es-checker": "^1.4.1",
+    "glob": "^7.1.2",
+    "mkdirp": "^0.5.1",
+    "nodemon": "^1.11.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-dev-server": "^2.4.5",
+    "write-file-webpack-plugin": "^4.0.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "koa": "^2.2.0",
+    "lodash": "^4.17.4",
+    "path-to-regexp": "^1.7.0"
+  }
+}

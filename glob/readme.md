@@ -1,0 +1,1 @@
+Match files using the patterns the shell uses, like stars and stuff.
